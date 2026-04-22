@@ -1,0 +1,63 @@
+{
+  "expo": {
+    "name": "homex",
+    "slug": "homex",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.aqibnewpass.homex"
+    },
+    "android": {
+  "adaptiveIcon": {
+    "foregroundImage": "./assets/adaptive-icon.png",
+    "backgroundColor": "#0b0f2b"
+  },
+  "package": "com.aqibnewpass.homex",
+  "config": {
+    "googleMaps": {
+      "apiKey": "AIzaSyBg3747onuPmWHEgQo8GJugHqBL3qXBlgs"
+    }
+  },
+  "repositories": [
+    "https://maven.google.com",
+    "https://repo.maven.apache.org/maven2"
+  ]
+}
+,
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "994d0f28-754c-4740-85d4-bc0b5a96ce7b"
+      },
+      "EXPO_PUBLIC_MAPBOX_TOKEN": "YOUR_MAPBOX_ACCESS_TOKEN"  
+    },
+    "plugins": [
+      [
+        "@react-native-google-signin/google-signin",
+        {
+          "iosUrlScheme": "com.googleusercontent.apps.655253277613-9fn6fndd5nbjj821jidrst22j0qtrfr2"
+        }
+      ],
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "This app needs camera access to capture CNIC images."
+        }
+      ],
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "Allow Homex to access your location."
+        }
+      ],
+      "expo-dev-client",
+      "expo-font"
+    ]
+  }
+}
