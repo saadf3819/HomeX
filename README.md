@@ -128,48 +128,32 @@ npx expo start
 
 ## 🔑 Environment Variables
 
-Create `.env` file:
+The following variables must be defined in `.env` (see `.env.example` for placeholders):
 
-STRIPE_SECRET_KEY=your_own_stripe_secret_key
-API_URL=http://localhost:8000
-
----
-
-## 📸 Screenshots
-
----
-
-## 🔮 Future Improvements
-
-* 🤖 AI-based recommendations
-* 🎤 Voice-based booking
-* 🌐 Multi-language support (Urdu + English)
-* 📊 Advanced analytics
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome!
-
-1. Fork the repo
-2. Create a new branch
-3. Commit changes
-4. Open a Pull Request
+| Variable | Description |
+|----------|------------|
+| FIREBASE_API_KEY | Firebase Web API key |
+| FIREBASE_AUTH_DOMAIN | Firebase Auth domain |
+| FIREBASE_PROJECT_ID | Firebase project ID |
+| FIREBASE_STORAGE_BUCKET | Firebase Storage bucket |
+| FIREBASE_MESSAGING_SENDER_ID | Firebase sender ID |
+| FIREBASE_APP_ID | Firebase App ID |
+| FIREBASE_MEASUREMENT_ID | Google Analytics measurement ID |
+| STRIPE_PUBLISHABLE_KEY | Stripe publishable key (test/live) |
+| GOOGLE_IOS_CLIENT_ID | Google OAuth iOS client ID |
+| GOOGLE_WEB_CLIENT_ID | Google OAuth web client ID |
+| WALLET_BACKEND_URL | Backend URL for Stripe payment intents |
+| CNIC_BACKEND_URL | Backend URL for CNIC OCR verification |
+| SELFIE_VERIFICATION_URL | Backend URL for face matching |
+| CLOUDINARY_URL | Cloudinary upload endpoint |
+| CLOUDINARY_UPLOAD_PRESET | Cloudinary upload preset |
+| MAPBOX_ACCESS_TOKEN | Mapbox access token (for maps integration) |
 
 ---
 
 ## 📄 License
 
 This project is for **Final Year Project (Educational Use)**
-
----
-
-## 👨‍💻 Developers
-
-* Muhammad Aqib
-* Saad Faisal
-* Azhar Ibrahim
 
 ---
 
